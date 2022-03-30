@@ -2,7 +2,7 @@ import React from 'react';
 
 const Food = ({food}) => {
   const {strMealThumb, strMeal, strCategory} = food
-  console.log(food);
+  
   return (
     <div className='w-64 h-96 rounded-lg shadow-lg'>
       <img className='w-64 h-60 mb-1 rounded-t-lg' src={strMealThumb} alt="" />
